@@ -23,6 +23,6 @@ e o interpretador da máquina virtual em si não do seu sistema operacional queb
 **Hotspot** 
 
 
-
+Execução JVM
 
 Para fazer com que o nosso código rode na JVM precisamos usar alguns comandos antes primeiro rodamos o comando javac (nome do arquivo) e depois usamos o comando java (nome do arquivo) para que rode nosso codigo, e quando usamos o comando javac é criado um outro arquivo com a prop .class que é nosso bytecode e quando for executar o comando java ele ira rodar o nosso bytecode nao o nosso código em si 
