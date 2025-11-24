@@ -4,16 +4,16 @@ public class Main {
     public static void main(String[] args) {
 
         String txt = "Kaique Devesa";
-            //imprime
+        //imprime
         System.out.printf(txt);
 
-            //sobrescreve variavel
+        //sobrescreve variavel
         txt = "Cubos Academy";
 
-            //imprime
+        //imprime
         System.out.printf(txt);
 
-            //constante
+        //constante
         final String txt2 = "Minha primeira constante";
 
         //imprime constante
@@ -30,5 +30,40 @@ public class Main {
         boolean verdadeiroOuFalso = true;
         System.out.println(verdadeiroOuFalso);
 
+
+        //operadores
+        // ==, >=, <=, !=, > , <
+        // &&, || , !variavel
+
+        /* numero1 = 10;
+        int numero2 = 10;
+
+
+        if (numero1 > numero2) {
+            System.out.println("numero 1 é maior");
+        } else if (numero1 == numero2){
+            System.out.println("os dois números sao iguais");
+        }  else {
+            System.out.println("numero 2 é maior");
+        } */
+
+
+        int numero3 = 19;
+
+        switch (numero3){
+            case 18:
+                System.out.println("o numero é 18");
+                break;
+            case 17 :
+                System.out.println("o numero é  17");
+                break;
+
+            default:
+                System.out.println("o número é desconhecido");
+                break;
         }
+
+
+
     }
+}
