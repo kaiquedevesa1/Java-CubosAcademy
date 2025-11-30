@@ -63,6 +63,9 @@ public class Main {
                 break;
         }
 
+        String resposta = (numero3 <= 17) ? "é menor de idade" : "é maior de idade";
+
+        System.out.println(resposta);
 
 
     }
