@@ -2,7 +2,7 @@ public class ManipulacaoStrings {
 
     public static void main(String[] args) {
 
-        double numero1 = 13.5;
+        /*double numero1 = 13.5;
         String variavelConvertida = String.valueOf(numero1);
         System.out.println(variavelConvertida.charAt(1));
 
@@ -14,8 +14,12 @@ public class ManipulacaoStrings {
         System.out.println(resultado2);
         // verifica se a string termina com a ocorrencia informada
         boolean resultado3 = variavel1.endsWith("a");
-        System.out.println(resultado3);
+        System.out.println(resultado3);*/
 
-
+        String variavel2 = "Kaique Devesa  ";
+        System.out.println(variavel2.length());
+        String variavelSemEspaco = variavel2.trim();
+        System.out.println(variavel2);
+        System.out.println(variavelSemEspaco.length());
     }
 }
