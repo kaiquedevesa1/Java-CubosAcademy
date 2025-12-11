@@ -16,10 +16,19 @@ public class ManipulacaoStrings {
         boolean resultado3 = variavel1.endsWith("a");
         System.out.println(resultado3);*/
 
-        String variavel2 = "Kaique Devesa  ";
+
+        //verifica o tamanho da string e tira os espacos
+
+        /*String variavel2 = "Kaique Devesa  ";
         System.out.println(variavel2.length());
         String variavelSemEspaco = variavel2.trim();
         System.out.println(variavel2);
-        System.out.println(variavelSemEspaco.length());
+        System.out.println(variavelSemEspaco.length());*/
+
+        //Transforma as String em maiusculo e minusculo
+        
+        String variavel3 = "Kaique Devesa";
+        System.out.println(variavel3.toLowerCase());
+        System.out.println(variavel3.toUpperCase());
     }
 }
