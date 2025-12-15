@@ -26,9 +26,22 @@ public class ManipulacaoStrings {
         System.out.println(variavelSemEspaco.length());*/
 
         //Transforma as String em maiusculo e minusculo
-        
-        String variavel3 = "Kaique Devesa";
+
+       /* String variavel3 = "Kaique Devesa";
         System.out.println(variavel3.toLowerCase());
-        System.out.println(variavel3.toUpperCase());
+        System.out.println(variavel3.toUpperCase());*/
+
+        // verifica a ocorrencia da string
+        /*String variavel4 = "banana";
+        System.out.println(variavel4.indexOf("an"));
+        System.out.println(variavel4.indexOf('a', 4));
+        System.out.println(variavel4.lastIndexOf("a"));
+        System.out.println(variavel4.lastIndexOf("a", 7));*/
+
+
+        String variavel5 = "banana";
+        System.out.println(variavel5.replace("a", "e"));
+        System.out.println(variavel5.substring(1, 3));
+
     }
 }
