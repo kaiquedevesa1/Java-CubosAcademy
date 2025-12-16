@@ -41,7 +41,8 @@ public class ManipulacaoStrings {
 
         String variavel5 = "banana";
         System.out.println(variavel5.replace("a", "e"));
-        System.out.println(variavel5.substring(1, 3));
+        System.out.println(variavel5.substring(1, 4));
+        System.out.println(variavel5.substring(1));
 
     }
 }
