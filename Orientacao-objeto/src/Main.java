@@ -10,8 +10,14 @@ public class Main {
 
 
         carro gol = new carro("Gol", "Volkswagen", "branco", 2010);
-        gol.ano = 2012;
+        //gol.ano = 2012;
+        gol.ligar();
+        gol.acelerar("forte");
+        gol.acelerar("fraco");
+        gol.acelerar();
+        gol.desligar();
 
-        System.out.println(gol.ano);
+        System.out.println(gol.ligado);
+        System.out.println(gol.aceleracao);
     }
 }

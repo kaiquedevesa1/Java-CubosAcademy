@@ -1,16 +1,16 @@
 public class carro {
 
 
-    public String modelo;
+    private String modelo;
 
-    public String marca;
+    private String marca;
 
-    public String cor;
+    private String cor;
 
-    public int ano;
+    private int ano;
 
-    public boolean ligado;
-    public int aceleracao;
+    private boolean ligado;
+    private int aceleracao;
 
     public carro(String modelo, String marca ,String cor , int ano){
     this.modelo = modelo;
@@ -33,26 +33,31 @@ public class carro {
     }
 
 
-    public void desligado(){
+    public void desligar(){
         if (!this.ligado){
             return;
         }
-
+        this.aceleracao = 0;
         this.ligado = false;
 
     }
 
-    public void acelerrar(String tipoAceleracao){
+    public void acelerar(String tipoAceleracao){
         switch (tipoAceleracao){
             case "forte":
                 this.aceleracao += 1000;
                 break;
-            case "fraca":
+            case "fraco":
                 this.aceleracao += 500;
                 break;
-            default:
-                this.aceleracao += 750;
-                break;
         }
+    }
+
+    public void acelerar(){
+        this.aceleracao += 750;
+    }
+
+    public String getModelo() {
+        return modelo;
     }
 }
