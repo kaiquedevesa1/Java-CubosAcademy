@@ -16,8 +16,13 @@ public class Main {
         gol.acelerar("fraco");
         gol.acelerar();
         gol.desligar();
+        System.out.println(gol.getCor());
+        gol.setCor("azul");
 
-        System.out.println(gol.ligado);
-        System.out.println(gol.aceleracao);
+        System.out.println(gol.getLigado());
+        System.out.println(gol.getAceleracao());
+        System.out.println(gol.getCor());
+        System.out.println(gol.getIdade());
+
     }
 }
