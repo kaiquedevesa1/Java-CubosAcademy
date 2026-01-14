@@ -24,5 +24,7 @@ public class Main {
         System.out.println(gol.getCor());
         System.out.println(gol.getIdade());
 
+        //Pessoa devesa = new Pessoa("Kaique", "12345678890");
+        Aluno devesa = new Aluno("Kaique", "12345678900");
     }
 }
