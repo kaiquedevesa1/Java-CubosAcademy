@@ -24,7 +24,14 @@ public class Main {
         System.out.println(gol.getCor());
         System.out.println(gol.getIdade());
 
-        //Pessoa devesa = new Pessoa("Kaique", "12345678890");
+
+        /**/
+        //Pessoa devesa = new Pessoa("Kaique", "12345678890"); classe concreta
         Aluno devesa = new Aluno("Kaique", "12345678900");
+        Professor joao = new Professor("João", "12341432432423", 1000000);
+        joao.calcularPontos(30);
+        devesa.calcularPontos(15);
+        System.out.println(joao.getPontos());
+        System.out.println(devesa.getPontos());
     }
 }
