@@ -10,4 +10,9 @@ public class Aluno extends Pessoa{
         this.setPontos(pontos);
     }
 
+    @Override
+    public  String imprimirSaudacao(){
+        return "Olá Aluno(a): " + this.getNome();
+    }
+
 }

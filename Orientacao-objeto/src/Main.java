@@ -10,6 +10,7 @@ public class Main {
 
 
         carro gol = new carro("Gol", "Volkswagen", "branco", 2010);
+
         //gol.ano = 2012;
         gol.ligar();
         gol.acelerar("forte");
@@ -33,5 +34,7 @@ public class Main {
         devesa.calcularPontos(15);
         System.out.println(joao.getPontos());
         System.out.println(devesa.getPontos());
+        System.out.println(devesa.imprimirSaudacao());
+        System.out.println(joao.imprimirSaudacao());
     }
 }
