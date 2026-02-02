@@ -1,4 +1,4 @@
-public class Professor extends Pessoa {
+public class Professor extends Pessoa implements Usuario{
     private int salario;
 
     public Professor (String nome, String cpf, int salario){
@@ -22,7 +22,7 @@ public class Professor extends Pessoa {
         this.setPontos(pontos);
     }
 
-    @Override
+
     public  String imprimirSaudacao(){
         return "Olá Professor(a): " + this.getNome();
     }
