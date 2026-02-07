@@ -36,5 +36,16 @@ public class Main {
         System.out.println(devesa.getPontos());
         System.out.println(devesa.imprimirSaudacao());
         System.out.println(joao.imprimirSaudacao());
+
+
+        //Calculadora calculadora = new Calculadora();
+
+        double soma = Calculadora.soma(2,2);
+        System.out.println(Calculadora.soma(2,2));
+        System.out.println(Calculadora.subtracao(1,2));
     }
+
+
+
+
 }
