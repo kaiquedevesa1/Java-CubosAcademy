@@ -37,6 +37,26 @@ public class Paciente {
         this.email = email;
     }
 
+    public String imprimir() {
+        String ficha = "Ficha do paciente: \n";
+
+        if(this.nome != null){
+            ficha += "Nome:" + this.nome + "\n";
+        }
+
+        if(this.email != null){
+            ficha += "E-mail:" + this.email + "\n";
+        }
+
+        if(this.cpf != null){
+            ficha += "CPF:" + this.cpf + "\n";
+        }
+
+        return ficha;
+
+
+    }
+
 
 
 }

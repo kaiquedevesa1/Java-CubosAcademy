@@ -7,9 +7,10 @@ public class BuilderTeste {
         PacienteBuilder builder = new PacienteBuilder();
         builder.setNome("Devesa");
         builder.setCpf("12332132132121");
+        builder.setEmail("dsadss@outlok.com");
 
         Paciente devesa = builder.getResult();
-        System.out.println(devesa.getNome());
+        System.out.println(devesa.imprimir());
 
 
     }
