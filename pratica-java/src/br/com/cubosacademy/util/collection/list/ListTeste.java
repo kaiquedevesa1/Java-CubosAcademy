@@ -40,7 +40,7 @@ public class ListTeste {
         System.out.println(usuarios.size());
 
 
-       
+
         for (Pessoa usuario : usuarios) {
             System.out.println(usuario.getNome());
         }
