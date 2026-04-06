@@ -38,7 +38,7 @@ public class ListTeste {
 
 
         System.out.println(usuarios.size());
-
+        System.out.println();
 
 
         for (Pessoa usuario : usuarios) {
